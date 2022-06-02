@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(36, 35, 35);
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+nav>div>h2{
+    color: rgb(175, 250, 250);
+    margin-left: 40%;
+    margin-top: 25px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6E7CB;
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGlicmFyeSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    
+}
+input{
+    min-height: 3rem;
+    min-width: 20rem;
+    margin-bottom: 5rem;
+    border-radius: 25px;
+    background-color: #bcf8e1;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+li{
+    min-height: 2rem;
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    background-color: #e8ed89;
+    border: 5px solid rgb(75, 73, 73);
+    word-break: break-all;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-radius: 10px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.delete{
+    color: red;
+}
+
+
